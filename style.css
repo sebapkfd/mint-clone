@@ -7,6 +7,9 @@ body {
 
 p {
     margin: 0;
+    padding: 0;
+    display: inline-block;
+    align-self: center;
 }
 
 #head {
@@ -18,7 +21,8 @@ p {
     padding: 10px 30px;
 }
 
-#sign-in-btn {
+#sign-in-btn,
+#create-acc-btn  {
     border: 1px solid #000;
     font-size: 13.5px;
     padding: 0 20px;
@@ -48,6 +52,66 @@ p {
     align-items: center;
 }
 
-#title,
-#pages-btns {
+#content {
+    width: 320px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+}
+
+h1 {
+    color: #393a3d;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.1;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#main-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+}
+
+#learn-more{
+    color: #0077c5;
+}
+
+form{   
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 30px;
+    padding-bottom: 6px;
+}
+
+input {
+    height: 34px;
+    padding: 0 6px 0 8px;
+    border: 1px solid #C1C5C8;
+    outline: none;
+    border-radius: 3px;
+}
+
+#phone-data {
+    font-size: 10px;
+    padding: 5px 0;
+    align-self: flex-start;
+}
+
+#create-acc-btn {
+    margin: 30px 0 20px 0;
+    border: none;
+    height: 44px;
+    width: 318px;
+    padding: 6px 12px;
+    align-self: center;
+    font-size: 15.57px;
 }
