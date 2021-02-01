@@ -10,7 +10,6 @@ p {
 }
 
 #head {
-    background-color: rebeccapurple;
     font-size: 12px;
     display: flex;
     flex-direction: row;
@@ -39,4 +38,15 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title,
+#pages-btns {
+    align-self: center;
 }
