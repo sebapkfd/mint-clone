@@ -20,6 +20,15 @@ p {
     padding: 10px 30px;
 }
 
+#title {
+}
+
+#intuit-logo {
+    width: 118px;
+    height: 35px;
+}
+
+
 #sign-in-btn,
 #create-acc-btn  {
     border: 1px solid #000;
@@ -157,4 +166,11 @@ a {
     margin-left: 10px;
     text-decoration: none;
     color: #505050;
+}
+
+.page-btn {
+    border: none;
+    font-size: 18px;
+    color: #505050;
+    margin-bottom: 15px;
 }
