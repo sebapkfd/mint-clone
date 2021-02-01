@@ -20,14 +20,11 @@ p {
     padding: 10px 30px;
 }
 
-#title {
-}
-
 #intuit-logo {
     width: 118px;
     height: 35px;
+    margin: 20px 0;
 }
-
 
 #sign-in-btn,
 #create-acc-btn  {
@@ -174,3 +171,28 @@ a {
     color: #505050;
     margin-bottom: 15px;
 }
+
+#services-logos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    height: 23px;
+    margin-right: 4px;
+}
+
+.service-logo {
+    width: 23px;
+    margin-right: 4px;
+}
+
+.service-name {
+    height: 20px;
+    /* width: 37px; */
+}
+
+
