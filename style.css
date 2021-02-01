@@ -11,6 +11,10 @@ p {
     display: inline-block;
 }
 
+button {
+    outline: none;
+}
+
 #head {
     font-size: 12px;
     display: flex;
@@ -98,6 +102,7 @@ form{
 label {
     margin-top: 30px;
     padding-bottom: 6px;
+    color: #404040;
 }
 
 input {
@@ -192,7 +197,23 @@ a {
 
 .service-name {
     height: 20px;
-    /* width: 37px; */
 }
 
+#privacy-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-65%);
+}
+
+#privacy-btn {
+    border: none;
+    height: 40px;
+    width: 124.375px;
+    padding: 10px 12px;
+    font-size: 14px;
+    background-color: #6B6C72;
+    color: #fff;
+    border-radius: 3px;
+}
 
