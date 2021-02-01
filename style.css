@@ -113,6 +113,10 @@ input {
     border-radius: 3px;
 }
 
+input:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
 #phone-data {
     font-size: 10px;
     padding: 5px 0;
@@ -216,4 +220,3 @@ a {
     color: #fff;
     border-radius: 3px;
 }
-
