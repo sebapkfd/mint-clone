@@ -42,11 +42,12 @@ p {
 
 #main {
     display: flex;
+    background-color: rebeccapurple;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #title,
 #pages-btns {
-    align-self: center;
 }
