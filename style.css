@@ -21,6 +21,12 @@ p {
 }
 
 #sign-in-btn {
+    border: 1px solid #000;
+    font-size: 13.5px;
+    padding: 0 20px;
     height: 34px;
-    width: 69px;
+    width: 109px;
+    background-color: #0077c5;
+    color: #fff;
+    border-radius: 5px;
 }
